@@ -1,0 +1,224 @@
+/* menu */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-link.active{
+    background-color: #F55;
+    color: white !important;
+    padding: 12px 25px!important;
+}
+.nav-link.active:hover{
+    background-color: #F55;
+    color: white !important;
+}
+.purple{
+    color: purple !important;
+    padding: 12px 25px !important;
+}
+.purple:hover{
+    background-color: purple;
+    color: white !important;
+}
+.green{
+    color: green !important;
+    padding: 12px 25px !important;
+}
+.green:hover{
+    background-color: green;
+    color: white !important;
+}
+.blue{
+    color: #29AAE2 !important;
+    padding: 12px 25px !important;
+}
+.blue:hover{
+    background-color: #29AAE2;
+    color: white !important;
+}
+.orange{
+    color:   #FFC225 !important;
+    padding: 12px 25px !important;
+    
+}
+.orange:hover{
+    background-color:   #FFC225;
+    color: white !important;
+}
+.pink{
+    color: #ED47C5 !important;
+    padding: 12px 25px !important;
+}
+.pink:hover{
+    background-color: #ED47C5;
+    color: white !important;
+}
+.velbet{
+    color: #BD69FF !important;
+    padding: 12px 25px !important;
+}
+.velbet:hover{
+    background-color: #BD69FF;
+    color: white !important;
+}
+.dropdown-menu{
+    background: black;
+   
+}
+.dropdown-menu li a{
+    color: #BD69FF;
+    padding: 12px 25px !important;
+}
+.dropdown-menu li a:hover{
+    background-color: #BD69FF;
+    color: white;
+}
+.nav-link{
+    font-size: 16px;
+    text-transform: uppercase;
+    
+    
+}
+/* end menu */
+/* slider */
+.heading{
+    background: rgba(255, 85, 85, 0.81);
+    font-size: 38px;
+    padding: 15px 20px;
+    display: inline-block;
+}
+.paragraph{
+    font-size: 22px;
+    background: rgba(255, 85, 85, 0.78);
+    padding: 15px 20px;
+    display: inline-block;
+    clear: both;
+}
+.carousel-indicators [data-bs-target]{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+
+}
+.carousel-indicators .active{
+    background-color: black!important;
+    border: 2px solid white;
+
+}
+/* end slider */
+/* card */
+.red-bg{
+    background-color: #F55;
+    color: white;
+}
+.purple-bg{
+    background-color: #973CB6;
+    color: white;
+}
+.green-bg{
+    background-color: green;
+    color: white;
+}
+.blue-bg{
+    background-color: #29AAE2;
+    color: white;
+}
+.services, .courses, .about{
+    padding: 40px 0;
+
+}
+.courses .card{
+    text-align: center;
+    font-weight: normal;
+    border-bottom: 2px solid #29AAE2 ;
+
+}
+.card-body a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 10px;
+}
+.courses h3{
+    color: #29AAE2;
+    font-size: 30px;
+    margin: 0 0 15px 0;
+}
+.about h3{
+    color: #29AAE2;
+    font-size: 30px;
+    margin: 0 0 15px 0;
+}
+.upcoming li a{
+    text-decoration: none;
+    color: #29AAE2;
+}
+.upcoming li a:hover{
+    text-decoration: underline;
+}
+.about a{
+    text-decoration: none;  
+}
+.about a:hover{
+    text-decoration: underline;
+}
+footer{
+    padding: 30px 0 1px;
+    background-color: #29AAE2;
+    color: white;
+}
+.list li a{
+    text-decoration: none;
+    color: white;  
+}
+.list li a:hover{
+    text-decoration: underline;
+} 
+.plans li a{
+    text-decoration: none;
+    color: white;  
+}
+.plans li a:hover{
+    text-decoration: underline;
+} 
+.all li a{
+    text-decoration: none;
+    color: white;  
+}
+.all li a:hover{
+    text-decoration: underline;
+} 
+.social-icon li a{
+    font-size: 32px;
+    color: white;
+    margin: 0 10px 0 10px;
+    
+}
+.social-icon{
+    text-align: center;
+}
+.social-icon li a:hover{
+    color: skyblue;
+}
+.footer-end li a{
+    padding: 0 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+   border-right: 1px solid white;
+}
+.footer-end li a:last-child{
+    border-right: 1px solid transparent;
+}
+.footer-end li a:hover{
+    text-decoration: underline;
+}
+.panel-body p, a{
+    font-size: 12px;
+    color: white;
+}
+.card{
+  max-width: 18rem
+}
